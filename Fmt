@@ -1,0 +1,25 @@
+package main
+
+import (
+    "context"
+    "fmt"
+    "github.com/ethereum/go-ethereum/ethclient"
+)
+
+func main() {
+    const url = "https://rpc.ankr.com/arbitrum/be37b14c1896485857f04eccd8ae89a9cf3b6f09b4c09f58b6adbfd35a548ef3"  // url string
+    
+    rpcClient,err := ethclient.Dial(url)
+    
+    if err != nil {
+        panic(err)
+    }
+    
+    blockNumber, err := rpcClient.BlockNumber(context.Background())
+    
+    if err != nil {
+        panic(err)
+    }
+    
+    fmt.Println(blockNumber)
+}

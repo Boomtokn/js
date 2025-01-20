@@ -110,3 +110,15 @@
   },
   "packageManager": "pnpm@9.4.0"
 }
+
+{
+  "name": "js",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
