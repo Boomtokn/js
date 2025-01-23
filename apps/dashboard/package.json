@@ -21,7 +21,7 @@
     "update-checkly": "npx checkly deploy"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.8.2",
+    "@chakra-ui/react": "^3.2.4",
     "@chakra-ui/styled-system": "^2.9.2",
     "@chakra-ui/theme-tools": "^2.1.2",
     "@coinbase/onchainkit": "^0.36.3",
