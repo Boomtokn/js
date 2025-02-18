@@ -187,7 +187,7 @@
     "@emotion/react": "11.11.4",
     "@emotion/styled": "11.11.5",
     "@google/model-viewer": "4.0.0",
-    "@noble/curves": "1.4.0",
+    "@noble/curves": "1.8.1",
     "@noble/hashes": "1.4.0",
     "@passwordless-id/webauthn": "^2.1.2",
     "@radix-ui/react-dialog": "1.1.1",
